@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="../images/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+  <title>Project Fitness Tracker </title>
+  <script src="../scripts/scripts_en.js"></script>
+</head>
+
+<body lang="en-US">
+  <div class="lan-bar-top">
+   
+
+  </div>
+
+  <header>
+    <h1 class="title beauty-shadow">Project Fitness Metabolic Rate Calculator</h1>
+    <img src="../images/calcCal.png" alt="calorias" class="logo" />
+  </header>
+
+  <main class="container">
+    <form class="form" id="formulario" onsubmit="return calcular(event)">
+      <fieldset>
+        <div class="field-group">
+          <label for="genero">SEX:</label>
+          <select name="genero" id="genero">
+            <option value="Feminino">Female</option>
+            <option value="Masculino">Male</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="peso">WEIGHT <small>(lbs)</small>:</label>
+          <input type="number" name="peso" id="peso" step="0.01" min="0" size="4" autofocus required
+            placeholder="180" />
+        </div>
+
+        <div class="field-group">
+          <label for="altura">HEIGHT <small>(in)</small>:</label>
+          <input type="number" name="altura" id="altura" step="0.01" min="0" size="5" required placeholder="67" />
+        </div>
+
+        <div class="field-group">
+          <label for="idade">AGE <small>(years)</small>:</label>
+          <input type="number" name="idade" id="idade" step="1.00" min="0" size="4" required placeholder="25" />
+        </div>
+
+        <div class="field-btn">
+          <input type="submit" class="button" value="CALCULATE" />
+        </div>
+      </fieldset>
+    </form>
+
+    <div class="resultado-container" id="resultado">
+      <h2 class="result">
+        YOUR RESULT IS:
+      </h2>
+      <div class="result-list" id="result-data" style="visibility: hidden">
+        <ul>
+          <li>Basal Metabolism : <span id="metabolismo_basal"></span> cal</li>
+          <li>Sedentary : <span id="sedentario"></span> cal</li>
+          <li>Low intensity exercise : <span id="exercicio_leve"></span> cal</li>
+          <li>Moderate exercise : <span id="exercicio_moderado"></span> cal</li>
+          <li>Regular exercise : <span id="ativo"></span> cal</li>
+          <li>2 hours of exercise (per day) : <span id="super_ativo"></span> cal</li>
+        </ul>
+        <h3 class="x-padd">
+          WEIGHT GAIN:
+        </h3>
+
+        <p>
+          To gain weight you must consume every day
+          <span id="ganhar_peso"></span> cal
+        </p>
+
+        <h3 class="x-padd">
+          WEIGHT LOSS:
+        </h3>
+
+        <p>
+          To lose weight you must consume up to
+          <span id="perder_peso"></span> cal every day
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="rodape">
+      <div class="rodape text-left">
+        <h4 class="text-center">Project  Fitness By Veritas University/ <br>
+        Computer Sciene Department </h4>
+        <ul>
+          <li>
+           
+          </li>
+        </ul>
+      </div>
+
+      <div class="lan-bar">
+       
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
