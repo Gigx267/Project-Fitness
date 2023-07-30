@@ -5,3 +5,14 @@ We believe that a healthy diet is the foundation of a fit lifestyle, and our app
 So, are you ready to take control of your well-being and embark on a transformative fitness journey? Remember, it's not just about exercise; it's about embracing a holistic approach to health and happiness. Let us be your guide towards a fitter, stronger, and more vibrant you!
 
 You'll have access to a vast library of choreographed routines led by world-class instructors who will inspire and challenge you every step of the way. Our workouts are carefully curated to provide a balanced mix of cardio, strength, and agility exercises, ensuring a full-body workout that targets all major muscle groups..
+GROUP MEMBERS
+Mike-Kusah Daniel
+Abdullahi Mohammed
+Olohiomeu Esther Ohikhena
+Teniola Anthony Thomas
+Oluwapelumi O. Akolade
+Tochukwu Celestine Madu
+Syster Nimi Bennett
+Dim Munachimso Bobby
+Israel Kenechukwu Nnanna
+Miracle Ojochele Abu .
